@@ -1,0 +1,75 @@
+{
+  "history": [
+    {
+      "id": "T001",
+      "token": "A09", 
+      "citizenName": "John Doe",
+      "service": "Birth Certificate",
+      "department": "Civil Registration",
+      "issueTime": "2025-11-20T09:15:00Z",
+      "completeTime": "2025-11-20T09:28:00Z",
+      "waitTime": 13,
+      "status": "completed",
+      "rating": 5,
+      "feedback": "Quick and efficient service"
+    },
+    {
+      "id": "T002", 
+      "token": "B03",
+      "citizenName": "Jane Smith",
+      "service": "Business Permit", 
+      "department": "Licenses & Permits",
+      "issueTime": "2025-11-20T08:45:00Z",
+      "completeTime": "2025-11-20T09:20:00Z",
+      "waitTime": 35,
+      "status": "completed",
+      "rating": 4,
+      "feedback": "Good service but took longer than expected"
+    },
+    {
+      "id": "T003",
+      "token": "C01", 
+      "citizenName": "Mike Johnson",
+      "service": "Tax Payment",
+      "department": "Treasury Department",
+      "issueTime": "2025-11-20T08:30:00Z", 
+      "completeTime": "2025-11-20T08:42:00Z",
+      "waitTime": 12,
+      "status": "completed",
+      "rating": 5,
+      "feedback": "Very fast processing"
+    },
+    {
+      "id": "T004",
+      "token": "A10",
+      "citizenName": "Sarah Wilson", 
+      "service": "Birth Certificate",
+      "department": "Civil Registration",
+      "issueTime": "2025-11-20T09:20:00Z",
+      "completeTime": null,
+      "waitTime": null,
+      "status": "in-progress",
+      "rating": null,
+      "feedback": null
+    },
+    {
+      "id": "T005",
+      "token": "A11",
+      "citizenName": "David Brown",
+      "service": "Death Certificate", 
+      "department": "Civil Registration",
+      "issueTime": "2025-11-20T09:30:00Z",
+      "completeTime": null,
+      "waitTime": null,
+      "status": "waiting",
+      "rating": null,
+      "feedback": null
+    }
+  ],
+  "nextTokenNumbers": {
+    "A": 13,
+    "B": 7, 
+    "C": 4,
+    "D": 1
+  }
+}

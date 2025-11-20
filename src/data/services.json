@@ -1,0 +1,122 @@
+{
+  "offices": [
+    {
+      "id": "city-hall",
+      "name": "नगरपालिका कार्यालय (City Hall)",
+      "nameEnglish": "City Hall",
+      "departments": [
+        {
+          "id": "civil-registration",
+          "name": "नागरिक दर्ता विभाग",
+          "nameEnglish": "Civil Registration",
+          "services": [
+            { "id": "birth-certificate", "name": "जन्म दर्ता प्रमाणपत्र", "nameEnglish": "Birth Certificate", "estimatedTime": 15 },
+            { "id": "death-certificate", "name": "मृत्यु दर्ता प्रमाणपत्र", "nameEnglish": "Death Certificate", "estimatedTime": 15 },
+            { "id": "marriage-certificate", "name": "विवाह दर्ता प्रमाणपत्र", "nameEnglish": "Marriage Certificate", "estimatedTime": 20 }
+          ]
+        },
+        {
+          "id": "licenses-permits",
+          "name": "अनुमति तथा लाइसेन्स विभाग",
+          "nameEnglish": "Licenses & Permits",
+          "services": [
+            { "id": "business-permit", "name": "व्यापार अनुमतिपत्र", "nameEnglish": "Business Permit", "estimatedTime": 30 },
+            { "id": "building-permit", "name": "भवन निर्माण अनुमतिपत्र", "nameEnglish": "Building Permit", "estimatedTime": 45 },
+            { "id": "occupancy-permit", "name": "बसोबास अनुमतिपत्र", "nameEnglish": "Occupancy Permit", "estimatedTime": 25 }
+          ]
+        },
+        {
+          "id": "treasury",
+          "name": "राजस्व विभाग",
+          "nameEnglish": "Treasury Department", 
+          "services": [
+            { "id": "tax-payment", "name": "कर भुक्तानी", "nameEnglish": "Tax Payment", "estimatedTime": 10 },
+            { "id": "tax-clearance", "name": "कर चुक्ता प्रमाणपत्र", "nameEnglish": "Tax Clearance", "estimatedTime": 20 },
+            { "id": "business-tax", "name": "व्यापार कर दर्ता", "nameEnglish": "Business Tax Registration", "estimatedTime": 30 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dmv", 
+      "name": "यातायात व्यवस्था विभाग",
+      "nameEnglish": "Department of Transport Management",
+      "departments": [
+        {
+          "id": "drivers-license",
+          "name": "सवारी चालक अनुमतिपत्र सेवा",
+          "nameEnglish": "Driver's License Services",
+          "services": [
+            { "id": "new-license", "name": "नयाँ सवारी चालक अनुमतिपत्र", "nameEnglish": "New Driver's License", "estimatedTime": 45 },
+            { "id": "license-renewal", "name": "सवारी चालक अनुमतिपत्र नवीकरण", "nameEnglish": "License Renewal", "estimatedTime": 25 }
+          ]
+        },
+        {
+          "id": "vehicle-registration",
+          "name": "सवारी साधन दर्ता",
+          "nameEnglish": "Vehicle Registration",
+          "services": [
+            { "id": "new-registration", "name": "नयाँ सवारी साधन दर्ता", "nameEnglish": "New Vehicle Registration", "estimatedTime": 30 },
+            { "id": "registration-renewal", "name": "सवारी साधन दर्ता नवीकरण", "nameEnglish": "Registration Renewal", "estimatedTime": 15 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hospitals",
+      "name": "सरकारी अस्पताल सेवा",
+      "nameEnglish": "Government Hospital Services", 
+      "departments": [
+        {
+          "id": "bir-hospital",
+          "name": "वीर अस्पताल",
+          "nameEnglish": "Bir Hospital",
+          "location": "Kathmandu",
+          "services": [
+            { "id": "general-medicine", "name": "सामान्य चिकित्सा", "nameEnglish": "General Medicine", "estimatedTime": 30 },
+            { "id": "cardiology", "name": "मुटु रोग विशेषज्ञ", "nameEnglish": "Cardiology", "estimatedTime": 45 },
+            { "id": "orthopedics", "name": "हाड जोर्नी विशेषज्ञ", "nameEnglish": "Orthopedics", "estimatedTime": 40 },
+            { "id": "neurology", "name": "न्यूरोलोजी", "nameEnglish": "Neurology", "estimatedTime": 50 },
+            { "id": "pediatrics", "name": "बाल रोग विशेषज्ञ", "nameEnglish": "Pediatrics", "estimatedTime": 35 }
+          ]
+        },
+        {
+          "id": "tribhuvan-university-hospital",
+          "name": "त्रिभुवन विश्वविद्यालय शिक्षण अस्पताल",
+          "nameEnglish": "Tribhuvan University Teaching Hospital",
+          "location": "Maharajgunj",
+          "services": [
+            { "id": "general-medicine", "name": "सामान्य चिकित्सा", "nameEnglish": "General Medicine", "estimatedTime": 30 },
+            { "id": "surgery", "name": "शल्यक्रिया विभाग", "nameEnglish": "Surgery", "estimatedTime": 60 },
+            { "id": "gynecology", "name": "स्त्री रोग विशेषज्ञ", "nameEnglish": "Gynecology", "estimatedTime": 35 },
+            { "id": "oncology", "name": "क्यान्सर विशेषज्ञ", "nameEnglish": "Oncology", "estimatedTime": 45 },
+            { "id": "emergency", "name": "आकस्मिक सेवा", "nameEnglish": "Emergency Services", "estimatedTime": 15 }
+          ]
+        },
+        {
+          "id": "patan-hospital",
+          "name": "पाटन अस्पताल",
+          "nameEnglish": "Patan Hospital", 
+          "location": "Lalitpur",
+          "services": [
+            { "id": "general-medicine", "name": "सामान्य चिकित्सा", "nameEnglish": "General Medicine", "estimatedTime": 30 },
+            { "id": "dermatology", "name": "छाला रोग विशेषज्ञ", "nameEnglish": "Dermatology", "estimatedTime": 25 },
+            { "id": "ent", "name": "कान नाक घाँटी", "nameEnglish": "ENT (Ear, Nose, Throat)", "estimatedTime": 30 },
+            { "id": "ophthalmology", "name": "आँखा रोग विशेषज्ञ", "nameEnglish": "Ophthalmology", "estimatedTime": 35 }
+          ]
+        },
+        {
+          "id": "bhaktapur-hospital",
+          "name": "भक्तपुर अस्पताल",
+          "nameEnglish": "Bhaktapur Hospital",
+          "location": "Bhaktapur", 
+          "services": [
+            { "id": "general-medicine", "name": "सामान्य चिकित्सा", "nameEnglish": "General Medicine", "estimatedTime": 30 },
+            { "id": "psychiatry", "name": "मानसिक स्वास्थ्य", "nameEnglish": "Psychiatry", "estimatedTime": 40 },
+            { "id": "physiotherapy", "name": "फिजियोथेरापी", "nameEnglish": "Physiotherapy", "estimatedTime": 45 }
+          ]
+        }
+      ]
+    }
+  ]
+}

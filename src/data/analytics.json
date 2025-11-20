@@ -1,0 +1,64 @@
+{
+  "today": {
+    "totalTickets": 127,
+    "completedTickets": 89,
+    "pendingTickets": 38,
+    "averageWaitTime": 18,
+    "peakHour": "10:00 AM",
+    "departments": [
+      {
+        "name": "Civil Registration",
+        "totalTickets": 45,
+        "completed": 32,
+        "pending": 13,
+        "avgWaitTime": 15
+      },
+      {
+        "name": "Licenses & Permits", 
+        "totalTickets": 38,
+        "completed": 25,
+        "pending": 13,
+        "avgWaitTime": 28
+      },
+      {
+        "name": "Treasury Department",
+        "totalTickets": 44,
+        "completed": 32,
+        "pending": 12,
+        "avgWaitTime": 12
+      }
+    ]
+  },
+  "weeklyData": [
+    { "day": "Mon", "tickets": 98, "avgWait": 16 },
+    { "day": "Tue", "tickets": 112, "avgWait": 19 },
+    { "day": "Wed", "tickets": 127, "avgWait": 18 },
+    { "day": "Thu", "tickets": 134, "avgWait": 22 },
+    { "day": "Fri", "tickets": 156, "avgWait": 25 },
+    { "day": "Sat", "tickets": 89, "avgWait": 14 },
+    { "day": "Sun", "tickets": 67, "avgWait": 12 }
+  ],
+  "hourlyData": [
+    { "hour": "8:00", "tickets": 12 },
+    { "hour": "9:00", "tickets": 18 },
+    { "hour": "10:00", "tickets": 25 },
+    { "hour": "11:00", "tickets": 22 },
+    { "hour": "12:00", "tickets": 15 },
+    { "hour": "1:00", "tickets": 20 },
+    { "hour": "2:00", "tickets": 18 },
+    { "hour": "3:00", "tickets": 16 },
+    { "hour": "4:00", "tickets": 14 },
+    { "hour": "5:00", "tickets": 7 }
+  ],
+  "feedback": {
+    "totalResponses": 245,
+    "averageRating": 4.2,
+    "ratings": [
+      { "stars": 5, "count": 98 },
+      { "stars": 4, "count": 87 },
+      { "stars": 3, "count": 42 },
+      { "stars": 2, "count": 12 },
+      { "stars": 1, "count": 6 }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "user": {
+    "id": "KYC-2025-001",
+    "isVerified": true,
+    "verificationDate": "2024-08-15",
+    "personalInfo": {
+      "fullName": "राम बहादुर शाही",
+      "fullNameEnglish": "Ram Bahadur Shahi",
+      "dateOfBirth": "1990-05-15",
+      "age": 34,
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "phoneNumber": "+977-9841234567",
+      "email": "ram.shahi@gmail.com"
+    },
+    "address": {
+      "permanentAddress": {
+        "province": "Bagmati Province",
+        "district": "Kathmandu",
+        "municipality": "Kathmandu Metropolitan City",
+        "ward": "16",
+        "tole": "New Road",
+        "houseNo": "123",
+        "fullAddress": "New Road, Kathmandu-16, Kathmandu, Bagmati Province"
+      },
+      "temporaryAddress": {
+        "province": "Bagmati Province", 
+        "district": "Kathmandu",
+        "municipality": "Kathmandu Metropolitan City",
+        "ward": "16",
+        "tole": "New Road", 
+        "houseNo": "123",
+        "fullAddress": "New Road, Kathmandu-16, Kathmandu, Bagmati Province"
+      }
+    },
+    "documents": {
+      "citizenshipNumber": "15-02-65-12345",
+      "citizenshipIssueDate": "2018-03-20",
+      "citizenshipIssueDistrict": "Kathmandu",
+      "voterIdNumber": "300451234",
+      "panNumber": "123456789"
+    },
+    "familyInfo": {
+      "fatherName": "धन बहादुर शाही",
+      "fatherNameEnglish": "Dhan Bahadur Shahi", 
+      "motherName": "सीता शाही",
+      "motherNameEnglish": "Sita Shahi",
+      "grandFatherName": "कृष्ण बहादुर शाही",
+      "grandFatherNameEnglish": "Krishna Bahadur Shahi",
+      "spouseName": "गीता शाही",
+      "spouseNameEnglish": "Gita Shahi"
+    },
+    "healthInsurance": {
+      "hasInsurance": true,
+      "insuranceProvider": "Nepal Health Insurance Board",
+      "insuranceNumber": "HI-2024-567890",
+      "validUntil": "2025-12-31",
+      "coverageType": "Full Coverage"
+    },
+    "emergencyContact": {
+      "name": "गीता शाही",
+      "nameEnglish": "Gita Shahi",
+      "relationship": "Spouse",
+      "phoneNumber": "+977-9876543210"
+    },
+    "accountInfo": {
+      "joinDate": "2024-01-15",
+      "lastLogin": "2025-11-20",
+      "profilePicture": "/api/placeholder/150/150",
+      "verificationLevel": "Level 3 - Full KYC Verified",
+      "status": "Active"
+    }
+  }
+}

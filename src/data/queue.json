@@ -1,0 +1,67 @@
+{
+  "current": {
+    "token": "A10",
+    "department": "Civil Registration",
+    "service": "Birth Certificate"
+  },
+  "queue": [
+    {
+      "token": "A11",
+      "department": "Civil Registration",
+      "service": "Death Certificate",
+      "timestamp": "2025-11-20T09:30:00Z",
+      "status": "waiting"
+    },
+    {
+      "token": "A12",
+      "department": "Civil Registration", 
+      "service": "Marriage Certificate",
+      "timestamp": "2025-11-20T09:35:00Z",
+      "status": "waiting"
+    },
+    {
+      "token": "B05",
+      "department": "Licenses & Permits",
+      "service": "Business Permit", 
+      "timestamp": "2025-11-20T09:25:00Z",
+      "status": "waiting"
+    },
+    {
+      "token": "B06",
+      "department": "Licenses & Permits",
+      "service": "Building Permit",
+      "timestamp": "2025-11-20T09:40:00Z", 
+      "status": "waiting"
+    },
+    {
+      "token": "C03",
+      "department": "Treasury Department",
+      "service": "Tax Payment",
+      "timestamp": "2025-11-20T09:20:00Z",
+      "status": "waiting"
+    }
+  ],
+  "counters": [
+    {
+      "id": "counter-1",
+      "name": "Counter 1",
+      "department": "Civil Registration",
+      "status": "active",
+      "currentToken": "A10"
+    },
+    {
+      "id": "counter-2", 
+      "name": "Counter 2",
+      "department": "Licenses & Permits",
+      "status": "active",
+      "currentToken": "B04"
+    },
+    {
+      "id": "counter-3",
+      "name": "Counter 3", 
+      "department": "Treasury Department",
+      "status": "active",
+      "currentToken": "C02"
+    }
+  ]
+}
