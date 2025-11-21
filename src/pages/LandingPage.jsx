@@ -63,9 +63,11 @@ const LandingPage = () => {
               variants={itemVariants}
               className="flex justify-center mb-8"
             >
-              <div className="bg-blue-600 p-6 rounded-full shadow-2xl">
+              {/* <div className="bg-blue-600 p-6 rounded-full shadow-2xl">
                 <Building2 className="h-16 w-16 text-white" />
-              </div>
+              </div> */}
+                <img src="/img/logo.png" alt="Logo" className="h-22 w-24" />
+
             </motion.div>
 
             <motion.h1

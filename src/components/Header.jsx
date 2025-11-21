@@ -20,18 +20,20 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2 sm:space-x-3">
-              <div className="bg-blue-600 p-2 rounded-lg">
+              {/* <div className="bg-blue-600 p-2 rounded-lg">
                 <Building2 className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
-              </div>
+              </div> */}
+                <img src="/img/logo.png" alt="Logo" className="h-14 w-12" />
+
               <div className="hidden xs:block">
                 <h1 className="text-sm sm:text-lg md:text-xl font-bold text-gray-900">
-                  Nepal Digital Service Portal
+                  Hamro पालो
                 </h1>
-                <p className="text-xs sm:text-sm text-gray-500 hidden sm:block">नेपाल डिजिटल सेवा पोर्टल</p>
+                <p className="text-xs sm:text-sm text-gray-500 hidden sm:block">सबै को पालो</p>
               </div>
               <div className="block xs:hidden">
                 <h1 className="text-base font-bold text-gray-900">
-                  NDSP
+                  Hamro पालो
                 </h1>
               </div>
             </Link>
